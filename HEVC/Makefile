@@ -1,7 +1,7 @@
 
 CC		= gcc
 
-FFMPEG_LD_PATH	= /work/ffmpeg/codec/ffmpeg/
+FFMPEG_LD_PATH	= ..
 
 CFLAGS	+= -Wall -g
 CFLAGS	+= -I$(FFMPEG_LD_PATH)
